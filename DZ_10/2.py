@@ -1,4 +1,6 @@
-class Clothes():
+from abc import ABC, abstractmethod
+class Clothes(ABC):
+
 
     def __init__(self, param):
         self.param = param
@@ -28,6 +30,5 @@ class Costume(Clothes):
         pass
 oat = Coat(400)
 costume = Costume(55)
-print(coat.consumption)
+print(oat.consumption())
 print(costume.consumption())
-print(coat.abstract())
