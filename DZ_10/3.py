@@ -23,8 +23,8 @@ class Cell:
         return result
 
 
-cell = Cell(45)
-cell_2 = Cell(7)
+cell = Cell(77)
+cell_2 = Cell(81)
 print(cell + cell_2)
 print(cell - cell_2)
 print(cell / cell_2)
